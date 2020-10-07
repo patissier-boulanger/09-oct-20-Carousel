@@ -1,0 +1,46 @@
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#mainImg {
+    position: relative;
+    background-color: blue;
+    width: 1000px;
+    height: 500px;
+}
+
+#leftBtn {
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+#rightBtn {
+    position: absolute;
+    top: 210px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.img {
+    object-fit: cover;
+    width: 1000px;
+    height: 500px;
+    display: none;
+}
+
+.appear {
+    display: block;
+}
+
+.disappear {
+    display: none;
+}
