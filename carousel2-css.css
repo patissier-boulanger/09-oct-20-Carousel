@@ -9,12 +9,11 @@ html, body {
 
 #mainImg {
     position: relative;
-    background-color: blue;
     width: 1000px;
     height: 500px;
 }
 
-#leftBtn {
+#bwdBtn {
     position: absolute;
     top: 210px;
     left: 20px;
@@ -22,7 +21,7 @@ html, body {
     height: 100px;
 }
 
-#rightBtn {
+#fwdBtn {
     position: absolute;
     top: 210px;
     right: 20px;
@@ -39,8 +38,19 @@ html, body {
 
 .appear {
     display: block;
+    animation: fade-in 1.5s;
+    animation-fill-mode: forwards;
 }
 
 .disappear {
     display: none;
 }
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
