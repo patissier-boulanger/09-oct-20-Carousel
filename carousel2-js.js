@@ -8,7 +8,7 @@ const bwdBtn = document.getElementById('bwdBtn');
 fwdBtn.addEventListener('click', forward);
 bwdBtn.addEventListener('click', backward);
 
-//앞으로 가는 버튼 함수
+//앞으로 가는 버튼 함수 만들기
 function forward() {
     //현재 이미지는 appear 클래스를 가진 이미지
     const appeardImg = document.querySelector('.appear');
