@@ -8,7 +8,7 @@ const bwdBtn = document.getElementById('bwdBtn');
 fwdBtn.addEventListener('click', forward);
 bwdBtn.addEventListener('click', backward);
 
-//앞으로 가는 버튼
+//앞으로 가는 버튼 함수
 function forward() {
     //현재 이미지는 appear 클래스를 가진 이미지
     const appeardImg = document.querySelector('.appear');
@@ -47,7 +47,7 @@ function backward() {
 
 
 function init() {
-//setInterval(forward, 5000);
+//setInterval(forward, 5000)
 
 };
 
